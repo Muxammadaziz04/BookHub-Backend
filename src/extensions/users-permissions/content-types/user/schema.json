@@ -63,11 +63,11 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "orders": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::order.order",
-      "mappedBy": "user"
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
     }
   }
 }
