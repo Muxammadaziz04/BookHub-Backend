@@ -29,6 +29,13 @@
     },
     "clientName": {
       "type": "string"
+    },
+    "inProcess": {
+      "type": "boolean",
+      "default": true
+    },
+    "user_id": {
+      "type": "biginteger"
     }
   }
 }
